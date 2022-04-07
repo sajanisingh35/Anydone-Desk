@@ -4,11 +4,16 @@ import arrow from '../images/arrow.png';
 import proactiveSolutions from '../images/proactiveSolutions.png';
 import simplifyWork from '../images/simplifyWork.png';
 import saveTime from '../images/saveTime.png';
+import Header from '../layouts/Header';
+import { BrowserRouter as Router ,Route, Routes } from 'react-router-dom';
+
 
 
 const Home = () => {
 return(
-  
+	
+		<div>
+			<Header/>
         <div className="container-fluid h-150">
 				<div className="homepage">
 					 <img src= {homepage}  alt='homepage'/>
@@ -22,14 +27,8 @@ return(
             		px-9 px-md-6">
 						<p className="text-quote mb-4  text-lg-left"><b>"Wouldn't it be <span className="color"><b>AWESOME</b></span> if your problems were<br/> Solved before you even realize they existed.</b>
 						</p>
-						<p className=" paragraph
-									mb-4
-									text-desc-sm
-									font-weight
-									color-description
-									text-center text-lg-left
-									home-subtext
-								">
+						<p className=" paragraph mb-4 text-desc-sm font-weight color-description text-center text-lg-left home-subtext ">										
+								
 								Interactively address known customer support issues, resolve, and update flutter even before your customers reach you.
 							</p>
 							<a className=" arrow btn cta-button-outline	cta-button-primary_rounded f-sm mb-5 mb-lg-0" href="features.html">Learn more<span><img src= {arrow}  alt='arrow'/></span>
@@ -54,7 +53,7 @@ return(
 						<p className="text-quote mb-3 text-center text-lg-left simplify-quote-label">
              			<b> "Satisfying every customer can be challenging. But, with "<span className="color"><b>Anydone Desk</b></span>, we help you break that ice.</b>
             			</p>
-						<p className=" paragraph mb-4 text-desc-sm font-weight color-description	text-center text-lg-left home-subtext">
+						<p className=" paragraph1 mb-4 text-desc-sm font-weight color-description	text-center text-lg-left home-subtext">
 								
 								Let the AI-powered bots handle conversational and personalized
 								customer support while your agents can focus on quality service.
@@ -125,57 +124,7 @@ return(
 				</div>
 
 			</div>
-			
-
-{/* 
-		<div class="row h-100 align-items-center justify-content-center">
-					<div class="col" style="z-index: 0">
-						<div class="d-flex flex-column align-items-center px-md-5">
-							<h1 class="
-									text-banner
-									cta-area-top-label
-									color-header
-									text-center
-									px-4
-								">
-								Customers look for solutions, a rather permanent one.
-							</h1>
-							<h1 class="
-									text-banner
-									color-header
-									text-center
-									mb-4
-								">
-								<strong>Anydone Desk</strong> helps you build a conversational
-								bridge to fill the gap.
-							</h1>
-							<div class="pricing-btn-group" style="padding-left: 20px;">
-								<a class="
-										btn
-										cta-button-primary_lg cta-button-primary_rounded_lg
-										text-uppercase
-										mb-0 mb-sm-0
-										mt-2
-									" href="https://desk.anydone.com/register/company/starter" target="_blank">Try Now</a>
-
-								<a href="#" class="
-										btn
-										cta-button-outline_lg
-										cta-button-primary_rounded_lg
-										text-uppercase
-										mb-0 mb-sm-0
-										mt-2
-									" onclick="openVideo()">Watch Video</a>
-							</div>
-							<div class="demo-video">
-								<div class="embed-responsive embed-responsive-16by9">
-									<video src="images/pricing/customer service.mp4" type="video/mp4" controls="true" class="embed-responsive item" id="stop"></video>
-								</div>
-								<img src="images/pricing/close.png" class="close" alt="close button" onclick="closeVideo()"/>
-							</div>
-						</div>
-					</div>
-				</div> */}
+			</div>
 			
 	</div>
 

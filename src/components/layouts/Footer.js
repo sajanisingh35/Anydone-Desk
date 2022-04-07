@@ -81,16 +81,27 @@ const Footer = () => {
 												<img className="img-fluid mb-3 mr-sm-2 mr-md-1" src= {linkedin} alt="LinkedIn"/>
 											</a>
 										</div>
+										
 									</div>
 
 							</div>
 						</div>
 					</div>
 
+
 				</div>
+				<div className="copyright text-center text-white fixed-bottom ">
+					<div className="text-center p-3">©2021 Anydone Desk. All Rights Reserved .
+	
+					</div>
+			</div>
+				
+        </div >
 
         </div>
-        </div>
+		
+
+		
     );
 
 }
@@ -98,3 +109,4 @@ const Footer = () => {
        
 			
 export default Footer;
+
