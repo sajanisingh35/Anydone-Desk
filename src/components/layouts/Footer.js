@@ -63,24 +63,30 @@ const Footer = () => {
 						</div>
 						<div className="row">
 							<div className="col-md-12">
-							<div className="row mb-3 mb-md-4 icon-arrangement ml-2 ml-lg-0">
+									<div className="row mb-4 mb-md-4 icon-arrangement ml-2 ml-lg-0">
 								
-										<div className="left d-flex flex-row flex-lg-column align-items-center">
+										<div className="col-lg-4">
 											<a className="mr-md-2" href="https://www.facebook.com/anydone.us" target="_blank">
 												<img className="img-fluid mb-3 mr-2 mr-md-1"src= {facebook}  alt="Facebook"/>
 											</a>
-											<a className="mr-md-2" href="https://twitter.com/AnydoneUs" target="_blank">
+											
+											<a className="col-lg-4"  href="https://twitter.com/AnydoneUs" target="_blank">
 												<img className="img-fluid mb-3 mr-2 mr-md-1" src= {twitter} alt="Twitter"/>
-											</a>
-										</div>
-										<div className="right d-flex flex-row flex-lg-column align-items-center">
+											</a></div>
+											
+										
+										<div className="col-lg-4">
 											<a className="mr-md-2" href="https://www.instagram.com/anydone.us/" target="_blank">
 												<img className="img-fluid mb-3 mr-2 mr-md-1" src= {instagram} alt="Instagram"/>
 											</a>
-											<a className="mr-md-2" href="https://www.linkedin.com/company/anydone/" target="_blank">
+											
+											<a className="col-lg-4" href="https://www.linkedin.com/company/anydone/" target="_blank">
 												<img className="img-fluid mb-3 mr-sm-2 mr-md-1" src= {linkedin} alt="LinkedIn"/>
-											</a>
+											</a><div/>
+											</div>
+											
 										</div>
+
 										
 									</div>
 
@@ -90,15 +96,11 @@ const Footer = () => {
 
 
 				</div>
-				<div className="copyright text-center text-white fixed-bottom ">
-					<div className="text-center p-3">©2021 Anydone Desk. All Rights Reserved .
-	
-					</div>
-			</div>
+				
 				
         </div >
 
-        </div>
+        
 		
 
 		

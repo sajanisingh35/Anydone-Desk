@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
 import Features from './components/pages/Features';
 import Footer from './components/layouts/Footer';
+import Copyright from './components/layouts/Copyright';
 
 
 import { BrowserRouter as Router ,Route, Routes } from 'react-router-dom';
@@ -27,6 +28,7 @@ function App() {
        
       </Router>
        <Footer/> 
+       <Copyright/>
    
     </div>
   );

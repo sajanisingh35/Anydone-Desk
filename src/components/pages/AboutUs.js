@@ -126,26 +126,16 @@ const AboutUs = ()=> {
             <div className="row h-100 align-items-center justify-content-center">
 				<div className="col" >
 					<div className=" sidebar d-flex flex-column align-items-center px-md-5">
-					<h1 className=" text-banner cta-area-top-label color-header	text-center	px-4">
-                    Your journey to a better customer relation begins here!
+					<h1 className=" text-banner cta-area-top-label color-header1 bold	text-center	px-4">
+                    <b>Your journey to a better customer relation begins here!</b>
 					</h1>
-							<div className="pricing-btn-group" >
-								<a className=" button
-									btn btn-primary cta-button-primary_rounded
-										cta-button-primary_lg cta-button-primary_rounded_lg
-										text-uppercase
-										mb-0 mb-sm-0
-										mt-2 pl-20
-									" href="#">Try Now</a>
-
-								<a className="button1
-										btn btn-outline-primary
-										btn-primary-rounded_lg
-										text-uppercase
-										mb-0 mb-sm-0
-										mt-2 pl-40 pr-20" 
-                                        href="#" data-mdb-ripple-color="dark" onclick="openVideo()">Watch Video</a>
-										</div>
+					<div className="pricing" >
+							<a className=" arrowf back btn cta-button-primary	cta-button-primary_lg cta-button-primary_rounded_lg  text-uppercase f-sm mb-5 mb-lg-0" href="#">
+								Try Now
+							</a>
+   							<a className=" arrowf btn cta-button-outline	cta-button-primary_rounded f-sm mb-5 mb-lg-0"  href="#">Watch Video
+							</a>
+					</div>
 										
 					</div>
 

@@ -18,13 +18,13 @@ const Navbar = () => {
       <div class="collapse navbar-collapse" id="anydone-navbar">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item active">
-            <a class="nav-link text-capitalize" aria-current="page" href="home"><Link to="/">Home</Link></a>
+            <a class="nav-link text-capitalize" aria-current="page" href="/index"><Link className=" nav-link" to="/">Home</Link></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-capitalize" href="aboutus"> <Link to="/aboutus">About Us</Link></a>
+            <a class="nav-link text-capitalize" href="aboutus"> <Link className=" nav-link" to="/aboutus">About Us</Link></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-capitalize" href="features"><Link to="/features">Features</Link></a>
+            <a class="nav-link text-capitalize" href="features"><Link  className=" nav-link" to="/features">Features</Link></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-capitalize" href="#">Pricing</a>

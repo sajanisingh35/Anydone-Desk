@@ -16,18 +16,14 @@ return(
                				        Deliver Exceptional Customer Service <br/>with Anydone Desk
 	 						    </p>
                                  
-	 						     <h4 className=" header  semi color-description text-center mb-4">
+								 <p className=" paragraph mb-4 text-desc-sm font-weight color-description text-center text-lg-left home-subtext ">		
 								        Offer a delightful conversational support that is immediate and
  							            friendly. Exceed your <br/>customer’s expectation with Anydone Desk's AI powered support system.
-							    </h4>
+							    </p>
 								<div className="pricing-btn-group" >
-								<a className=" button
-									btn btn-primary cta-button-primary_rounded
-										cta-button-primary_lg cta-button-primary_rounded_lg
-										text-uppercase
-										mb-0 mb-sm-0
-										mt-2 pl-20
-									" href="#">Try Now</a>
+								<a className=" arrowf back btn cta-button-primary	cta-button-primary_lg cta-button-primary_rounded_lg  text-uppercase f-sm mb-5 mb-lg-0" 
+										
+									 href="#">Try Now</a>
 
 								{/* <a className="button1
 										btn btn-outline-primary
@@ -41,8 +37,7 @@ return(
 										</div>
 										</div>
 							</div>
-							
-                            </div>
+							</div>
                             </div>
                             </div>
                            

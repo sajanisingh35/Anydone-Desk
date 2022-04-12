@@ -86,9 +86,13 @@
  
   padding-right : 10px;
   padding-left: 8px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
   color: #0b0a0a;
   padding-top: 25px;
+  line-height:19px;
+  font-style: normal;
+  display: inline;
+ 
   
   
 
@@ -101,18 +105,33 @@
   text-transform: uppercase;
   color: #000000;
 }
-.button{
-  padding: 35px 60px;
-  border-radius: 12px;
-  display: inline-block;
-  vertical-align: middle;
-    justify-content: center;
-    width: 200px;
-    height:20px;
-    margin-right: 10px;
-    font-size: 30px;
-    
-    
+.arrowd{
+  padding: 20px 15px;
+  margin-top: 5px;
+  margin-left:0px;
+  margin-right: 10px;
+  height:70px;
+  width:23%;
+  color:#376af5;
+  text-align: center;
+  border-color: #0650e3;
+  border-width:2px;
+  line-height:28px;
+  letter-spacing: 1.12px;
+  border-radius:10px;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.border{
+  border-color: #0650e3;
+  border-width:4px;
+  border: 1.05px solid ;
+}
+.bgRedLine{
+  margin-left:50px;
+  text-align: bottom;
 }
 .button:hover{
   box-shadow: 0 12px 16px 0 rgba(28, 31, 200, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -151,22 +170,25 @@ header.masthead {
 
 }
 .nav-button{
-  padding-left:50px;
-  padding-top:20px;
+
+  padding-bottom:40px;
   height:50px;
   width: 100%;
-  font-size: small;
+  font-size: 15px;
   font-display: inline-block;
   margin-bottom: 60px;
-  text-align:justify;
+  text-align:left;
+  letter-spacing: 1.12px;
+
 
  
 }
 .pricing-btn-group{
-  padding-left: 30px;
-  padding-top: 20px;
+ 
+  padding-top: 15px;
   height: 12px;
-  width: 100%;
+  width: 140%;
+ text-align: start;
  
 }
 
@@ -188,6 +210,11 @@ header.masthead {
     font-weight: bold; 
 
 }
+.ctn{
+ 
+  
+
+}
 .body{
   font-family: 'Lato', sans-serif;
   color: #333333;
@@ -198,10 +225,13 @@ header.masthead {
 }
 .nav-link{
   font-size: calc(5px + 2vmin);
-  color: #0b0a0a;
+  color: #090808;
   /* padding-left: 5px;
   padding-right: 5px; */
   display: inline-block;
+  line-height: 20px;
+  
+ 
 }
 .text-header{
   font-size :39px;
@@ -241,14 +271,15 @@ header.masthead {
    padding-top: 8px; 
   
    text-align: center;
-   font-size: calc(9px + 5vmin);
+   /* font-size: calc(10px + 8vmin); */
+   
   
 }
 
 .semi{
-  font-weight: 550px;
-  font-size: 400px;
- 
+  font-weight: 400px;
+ line-height: 50px;
+ font-size: 50px;
 
 }
 .font-weight-bold{
@@ -290,11 +321,22 @@ header.masthead {
 }
 .text-title{
   text-align:left;
-  font-size: 40px;
+  font-size: 45px;
   font-family: 'Lato',sans-serif;
   padding-top:100px;
   color:#1a0962;
   
+}
+.color-header1{
+  text-align:left;
+  font-size: 40px;
+  line-height: 60px;
+  height: 45px;
+   font-family: 'Lato',sans-serif; 
+  padding-top:10px;
+  color:#1c0785;
+  font-weight: 400;
+
 }
 .text-quote{
   font-size :33px;
@@ -378,17 +420,22 @@ header.masthead {
 }
 .sidebar{
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 5px;
   font-size: 80px;
   background: url(./components/images/Background.png);
-  height: 500px;
+  height: 400px;
   width:100%;
   text-align: center;
-  padding-top:170px;
+  padding-top:80px;
+  padding-bottom: 30px;
 }
 .text-banner{
   color:#1a0962;
-  font-size: 40px;
+  font-size: 42px;
+  padding-bottom: 30px;
+  line-height: 60px;
+  /* background: url(./components/images/bgRedLine.png); */
+
 }
 .footer-title{
   font-weight: 700;
@@ -508,19 +555,29 @@ header.masthead {
   margin-top: 20px;
 }
 .arrowf{
-  padding: 25px 15px;
-  margin-top: 10px;
+  padding: 20px 15px;
+  margin-top: 5px;
+  margin-left:0px;
+  margin-right: 10px;
   height:70px;
+  width:23%;
   color:#376af5;
   text-align: center;
-  border-color: #376af5;
-  border-width:8em  solid;
-  line-height:19px;
+  border-color: #0650e3;
+  border-width:2px;
+  line-height:28px;
   letter-spacing: 1.12px;
   border-radius:10px;
-  font-size: 20px;
+  font-size: 23px;
+  font-weight: 600;
   cursor: pointer;
+  
 
+}
+.back{
+  background-color: #376af5;
+  color: white;
+  line-height: 30px;
 }
 .features-header{
   font-size :37px;
@@ -541,6 +598,64 @@ header.masthead {
 } */
 .copyright{
   background-color: #100f0f; 
+}
+.display-image-area {
+  background: #eff3ff;
+  border-radius: 30px;
+  padding: 65px 40px;
+  object-fit: contain;
+  height: 600px;
+  width: 600px;
+}
+.backg{
+  background: url(./components/images/features/top-image-blob.png);
+}
+.pricing{
+
+    padding-left: 10px;
+    padding-top: 45px;
+    height: 12px;
+    width: 70%; 
+    
+}
+.part{
+  margin-bottom: 10px;
+  height: 500px;
+}
+.accordion{
+  font-size: 20px;
+  border:none;
+  outline: none;
+}
+.accordion-header{
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+  margin-left: 20px;
+}
+.accordion-button{
+  font-size: 35px;
+  font-weight: 500;
+  line-height:50px;
+  color:#090808;
+  background-color: white;
+  margin-top: 2px;
+}
+.ten{
+  font-size: 60px;
+  line-height: 30px;
+  height: 30px;
+}
+.sidebara{
+  margin-top: 120px;
+  margin-bottom: 100px;
+  font-size: 80px;
+  background: url(./components/images/Background.png);
+  height: 500px;
+  width:100%;
+  text-align: center;
+  padding-top:170px;
 }
 @keyframes App-logo-spin {
   from {
