@@ -93,10 +93,14 @@ return(
 
 			<div className="row h-100 align-items-center justify-content-center">
 				<div className="col" >
+					
 					<div className=" sidebar d-flex flex-column align-items-center px-md-5">
-					<h1 className=" text-banner cta-area-top-label color-header1 bold	text-center	px-4 										">
+					
+					<h1 className=" text-banner cta-area-top-label color-header1 bold	text-center	px-4">
 								<b>Customers look for solutions, a rather permanent one.</b>
-								<img className="bgRedLine" src={bgRedLine} alt="bgRedLine"/>
+								<img  src={bgRedLine} alt="bgRedLine"/> 
+								
+								
 					</h1>
 							<h1 className=" text-banner color-header1	text-center	mb-4">
 								<b>Anydone Desk helps you build a conversational

@@ -5,6 +5,7 @@ import Navbar from './components/layouts/Navbar';
 import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
 import Features from './components/pages/Features';
+import Pricing from './components/pages/Pricing';
 import Footer from './components/layouts/Footer';
 import Copyright from './components/layouts/Copyright';
 
@@ -23,6 +24,7 @@ function App() {
       <Route exact path ="/" element={<Home/>}/>
       <Route path ="/aboutus" element={<AboutUs/>}/>
       <Route path ="/features" element={<Features/>}/>
+      <Route path ="/pricing" element={<Pricing/>}/>
       </Routes>
     
        

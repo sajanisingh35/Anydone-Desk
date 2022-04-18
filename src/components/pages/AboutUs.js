@@ -2,6 +2,7 @@ import React from "react";
 import ashok from '../images/boss/ashok.png';
 import dipak from '../images/boss/dipak.png';
 import yakov from '../images/boss/yakov.png';
+import bgRedLine from '../images/bgRedLine.png';
 
 const AboutUs = ()=> {
     return(
@@ -126,8 +127,12 @@ const AboutUs = ()=> {
             <div className="row h-100 align-items-center justify-content-center">
 				<div className="col" >
 					<div className=" sidebar d-flex flex-column align-items-center px-md-5">
+						
+					
 					<h1 className=" text-banner cta-area-top-label color-header1 bold	text-center	px-4">
-                    <b>Your journey to a better customer relation begins here!</b>
+					
+                    <b>Your journey to a better customer relation begins here!<img  mb-4 src={bgRedLine} alt="bgRedLine"/> </b>
+				
 					</h1>
 					<div className="pricing" >
 							<a className=" arrowf back btn cta-button-primary	cta-button-primary_lg cta-button-primary_rounded_lg  text-uppercase f-sm mb-5 mb-lg-0" href="#">

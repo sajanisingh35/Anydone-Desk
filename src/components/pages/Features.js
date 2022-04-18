@@ -3,6 +3,8 @@ import Embrace from '../images/features/Embrace.png';
 import performance from '../images/features/performance.gif';
 import project from '../images/features/project.gif';
 import proactive from '../images/features/proactive.gif';
+import star from '../images/features/star.png';
+import swiggly from '../images/features/swiggly.png';
 
 
 
@@ -21,7 +23,7 @@ const Features = () => {
 								its power-packed AI platform that empowers you to deliver an
 								exceptional customer experience.
 				</p>
-				<div className="pricing-btn-group" >
+				<div className="pricing-btn-group1" >
 				<a className=" arrowf back btn cta-button-primary	cta-button-primary_lg cta-button-primary_rounded_lg  text-uppercase f-sm mb-5 mb-lg-0" href="#">
 								Try Now
 				</a>
@@ -35,9 +37,7 @@ const Features = () => {
 				<div className="col-md-12 col-lg-5	order-2	text-center	pr-5 top-image-blob backg">
 				<img className="embrace" src= {Embrace} alt='Embrace'/> 
 				</div>
-	 
-				
-			</div>
+	 	</div>
 			<div className="container-fluid h-100">
 				<div className="row h-100 align-items-center justify-content-center">
 					<div className="col-md-12 col-xl-6 order-2 order-xl-1 text-center" id="accordionOneSvg">
@@ -47,13 +47,14 @@ const Features = () => {
 						<div className="d-flex flex-column px-2 px-md-5 accordion" id="accordionOne">
 						<h1 className="accordion-header  color-header pb-5 proactive-features-accordion-label">
 							Proactive Features
+							<img  className="star" src={star} alt="star"/>
 						</h1>	
 
   							<div className="accordion-card">
   							 
-    						  <a className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    						  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
        							 Performance Insights
-      						  </a>
+      						  </button>
                         
    							 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
      						 <div className="accordion-body">
@@ -66,7 +67,7 @@ const Features = () => {
  					 		</div>
   							<div className="accordion-card">
     						
-     							 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+     							 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapseTwo" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
       					  			Activity Log
       							</button>
    						
@@ -103,6 +104,8 @@ const Features = () => {
      						 </div>
    						 	</div>
   							</div>
+							 
+
 							</div>
 							</div>
 
@@ -168,8 +171,11 @@ const Features = () => {
 
 				</div>
 				</div>
+			
 					<div className="col-md-12 col-xl-6 order-2 text-center simplifyStyle-label">
+					<img className="swiggly" src={swiggly} alt="swiggly"/>
 						<img className="display-image-area img-fluid" src= {project} id="accordionTwoImage" alt="Project"/>
+						
 					</div>
 				</div>
 			</div>

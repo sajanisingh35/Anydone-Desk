@@ -129,10 +129,9 @@
   border-width:4px;
   border: 1.05px solid ;
 }
-.bgRedLine{
-  margin-left:50px;
-  text-align: bottom;
-}
+
+  
+
 .button:hover{
   box-shadow: 0 12px 16px 0 rgba(28, 31, 200, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
@@ -183,12 +182,31 @@ header.masthead {
 
  
 }
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+}
 .pricing-btn-group{
  
   padding-top: 15px;
   height: 12px;
-  width: 140%;
- text-align: start;
+  width: 100%;
+ text-align: center;
  
 }
 
@@ -419,8 +437,8 @@ header.masthead {
   margin-left: 25px;
 }
 .sidebar{
-  margin-top: 150px;
-  margin-bottom: 5px;
+  margin-top: 60px;
+  margin-bottom: 7px;
   font-size: 80px;
   background: url(./components/images/Background.png);
   height: 400px;
@@ -428,6 +446,7 @@ header.masthead {
   text-align: center;
   padding-top:80px;
   padding-bottom: 30px;
+  height: 500px;
 }
 .text-banner{
   color:#1a0962;
@@ -437,6 +456,7 @@ header.masthead {
   /* background: url(./components/images/bgRedLine.png); */
 
 }
+/* Footer css */
 .footer-title{
   font-weight: 700;
     font-size: 18px;
@@ -657,6 +677,154 @@ header.masthead {
   text-align: center;
   padding-top:170px;
 }
+.star{
+  padding-left:6px;
+  padding-bottom:20px;
+  height:80px;
+}
+.swiggly{
+  height:250px;
+  margin-right:1000px;
+  width:180%;
+  margin-top:-70px;
+  margin-bottom:-40px;
+  padding-right:1100px;
+
+}
+.pricing-btn-group1{
+ 
+  padding-top: 15px;
+  height: 12px;
+  width: 140%;
+ text-align: start;
+ 
+}
+/* Pricing Css */
+
+  .pricing{
+    margin-top:60px;
+    text-align: center;
+    margin-left:100px;
+    margin-bottom: 70px;
+    
+  }
+  .pricing-header{
+      text-align: center;
+      margin-left:250px;
+      font-size: 45px;
+      font-weight: 550;
+      line-height: 70px;
+      color:#100f0f;
+   
+  }
+  .top{
+    margin-top:45px;
+
+  }
+  .table{
+    margin-top:0px;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.service{
+  background: url(./components/images/Background.png);
+}
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+.anydone-pricing-table th {
+  width: 20%;
+  
+}
+.table-heading{
+  text-align: center;
+} 
+.anydone-primary-color {
+  color: #376af5;
+}
+.service-price-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  padding-right:10px;
+}
+.text-uote{
+  font-size :35px;
+  font-weight: 500;
+  text-align: center;
+ 
+}
+sup {
+  top: -0.5em;
+}
+.row{
+  margin-bottom: 40px;
+}
+
+.pbutton{
+  padding-bottom: 20px;
+  line-height:1px;
+  padding-top: 30px;
+  text-align: center;
+  width:80%;
+  border-radius: 15px;
+} 
+/* .style{
+  border-style: solid;
+  border-top: #050860;
+} */
+.arrowg{
+  padding: 20px 15px;
+  margin-top: 30px;
+  margin-left:0px;
+  margin-right: 10px;
+  height:55px;
+  width:90%;
+  color:#376af5;
+  text-align: center;
+  border-color: #6896f4;
+  border-width:2px;
+  line-height:28px;
+  letter-spacing: 1.12px;
+  border-radius:10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  
+
+}
+.gap{
+  margin-top:70px;
+}
+.service-key-text {
+  font-size: 14px;
+  line-height: 16px;
+}
+.service-value-text {
+ 
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+.font-weight-bold {
+  font-weight: 700!important;
+}
+.free-trial{
+  text-align: left;
+  font-weight: 600;
+}
+.pricing-button{
+  text-align: center;
+  line-height: 15px;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  width:70%;
+  border-radius: 10px;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
